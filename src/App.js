@@ -6,12 +6,12 @@ import reducers from './reducers';
 import { Header } from './components/common';
 
 const App = () => (
-    <Provider store={createStore(reducers)}>
-    <View style={{ flex: 1 }}>
-    <Header headerText="Tech Stack" />
-    </View>
-    </Provider>
-  );
+  <Provider store={createStore(reducers)}>
+  <View style={{ flex: 1 }}>
+  <Header headerText="Tech Stack" />
+  </View>
+  </Provider>
+);
 
 
 export default App;
